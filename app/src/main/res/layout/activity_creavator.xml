@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.takwolf.android.aspectratio.AspectRatioLayout
+            android:id="@+id/ratioLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:arl_heightRatio="1"
+            app:arl_widthRatio="1">
+
+            <tn.meteor.creavas.kitchen.widget.MotionView
+                android:id="@+id/main_motion_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/space_white">
+
+
+            </tn.meteor.creavas.kitchen.widget.MotionView>
+            <tn.meteor.creavas.kitchen.widget.MotionView
+                android:id="@+id/second"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                android:background="@color/space_white">
+            </tn.meteor.creavas.kitchen.widget.MotionView>
+
+
+            <com.simplify.ink.InkView
+                android:id="@+id/draw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                app:inkFlags="interpolation|responsiveWeight" />
+
+        </com.takwolf.android.aspectratio.AspectRatioLayout>
+    </LinearLayout>
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar_delete"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/bottomBar"
+        android:background="@color/colorAccent"
+        android:visibility="visible"
+        app:bb_activeTabAlpha="1.0"
+        app:bb_activeTabColor="@color/colorAccent"
+        app:bb_inActiveTabAlpha="1.0"
+        app:bb_inActiveTabColor="@color/space_white"
+        app:bb_showShadow="true"
+        app:bb_tabXmlResource="@xml/bottombar_delete"
+        app:layout_constraintBottom_toTopOf="@+id/bottomBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" >
+
+    </com.roughike.bottombar.BottomBar>
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:bb_activeTabAlpha="1.0"
+        app:bb_activeTabColor="@color/colorPrimaryDark"
+        app:bb_inActiveTabAlpha="1.0"
+        app:bb_inActiveTabColor="@color/colorPrimaryDark"
+        app:bb_showShadow="true"
+        app:bb_tabXmlResource="@xml/bottombar_tabs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" >
+
+    </com.roughike.bottombar.BottomBar>
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar_textbar"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/bottomBar"
+        android:background="@color/colorAccent"
+        app:bb_activeTabAlpha="1.0"
+        app:bb_activeTabColor="@color/colorAccent"
+        app:bb_inActiveTabAlpha="1.0"
+        app:bb_inActiveTabColor="@color/space_white"
+        app:bb_showShadow="true"
+        app:bb_tabXmlResource="@xml/bottombar_textbar"
+        app:layout_constraintBottom_toTopOf="@+id/bottomBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar_draw"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/bottomBar"
+        android:background="@color/colorAccent"
+        app:bb_activeTabAlpha="1.0"
+        app:bb_activeTabColor="@color/colorAccent"
+        app:bb_inActiveTabAlpha="1.0"
+        app:bb_inActiveTabColor="@color/space_white"
+        app:bb_showShadow="true"
+        app:bb_tabXmlResource="@xml/bottombar_draw"
+        app:layout_constraintBottom_toTopOf="@+id/bottomBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>

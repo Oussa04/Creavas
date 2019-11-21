@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/dummy"/>
+    <tab
+        inActiveColor="#ffffff"
+        activeColor="#ffffff"
+        id="@+id/done"
+        icon="@drawable/ic_check"
+        title="Done"
+        badgeBackgroundColor="#ffffff"
+        />
+    <tab
+        inActiveColor="#ffffff"
+        activeColor="#ffffff"
+        id="@+id/stroke_decrease"
+        icon="@drawable/ic_neg_1"
+        title="Stroke -" />
+    <tab
+        inActiveColor="#ffffff"
+        activeColor="#ffffff"
+        id="@+id/stroke_increase"
+        icon="@drawable/ic_plus_1"
+        title="Stroke +" />
+    <tab
+        inActiveColor="#ffffff"
+        activeColor="#ffffff"
+        id="@+id/draw_color"
+        icon="@drawable/ic_color"
+        title="Color" />
+    <tab
+        inActiveColor="#ffffff"
+        activeColor="#ffffff"
+        id="@+id/clear"
+        icon="@drawable/ic_clear"
+        title="Clear" />
+    <tab
+        inActiveColor="#ffffff"
+        activeColor="#ffffff"
+        id="@+id/draw_delete"
+        icon="@drawable/ic_delete"
+        title="Remove" />
+
+</tabs>

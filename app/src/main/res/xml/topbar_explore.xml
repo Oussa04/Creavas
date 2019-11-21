@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+      <tab
+        activeColor="#ffffff"
+        id="@+id/hot"
+        icon="@drawable/ic_whatshot"
+        title="World"
+
+        />
+    <tab
+        activeColor="#ffffff"
+        id="@+id/people"
+        icon="@drawable/ic_people"
+        title="People"
+        />
+
+    <tab
+        activeColor="#ffffff"
+        id="@+id/hashtag"
+        title="Hashtags"
+
+        icon="@drawable/ic_hashtag"/>
+
+
+</tabs>

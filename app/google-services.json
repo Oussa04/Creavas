@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "711869397417",
+    "firebase_url": "https://canvas-9d1eb.firebaseio.com",
+    "project_id": "canvas-9d1eb",
+    "storage_bucket": "canvas-9d1eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711869397417:android:46deabda7e1cc240",
+        "android_client_info": {
+          "package_name": "com.android.espritp.canvas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711869397417-993ulf2k3thf02i7mk9b8vo3g2au6j9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.espritp.canvas",
+            "certificate_hash": "e091427802f948a76cd55fd3c9a4f2aeeb1ab63c"
+          }
+        },
+        {
+          "client_id": "711869397417-jqqa6m178a395lnqpbabek275b7odr61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.espritp.canvas",
+            "certificate_hash": "7b33b95a9667d3b65e4792375cff1f07f316fd87"
+          }
+        },
+        {
+          "client_id": "711869397417-9e6tv4ks0m3pdfggk9j8q04mmredqmkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5VXHpOlfiqdqYEDq_nhX6wTKryzubXX8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711869397417-9e6tv4ks0m3pdfggk9j8q04mmredqmkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711869397417:android:8ca0220ffc2d4a13",
+        "android_client_info": {
+          "package_name": "tn.meteor.creavas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711869397417-kcro8c0ibe2ie2uus8iljkat6kkujia5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tn.meteor.creavas",
+            "certificate_hash": "7b33b95a9667d3b65e4792375cff1f07f316fd87"
+          }
+        },
+        {
+          "client_id": "711869397417-7vbdfb8mcj7u76o1dh3j7ce01okmrq4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tn.meteor.creavas",
+            "certificate_hash": "e091427802f948a76cd55fd3c9a4f2aeeb1ab63c"
+          }
+        },
+        {
+          "client_id": "711869397417-9e6tv4ks0m3pdfggk9j8q04mmredqmkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5VXHpOlfiqdqYEDq_nhX6wTKryzubXX8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711869397417-9e6tv4ks0m3pdfggk9j8q04mmredqmkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

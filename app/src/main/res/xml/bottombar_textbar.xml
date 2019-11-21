@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/dummy"/>
+    <tab
+        activeColor="#ffffff"
+        id="@+id/text_input"
+        icon="@drawable/ic_text_fields"
+        title="Text"
+        badgeBackgroundColor="#ffffff"
+        />
+    <tab
+        activeColor="#ffffff"
+        id="@+id/font_size_decrease"
+        icon="@drawable/ic_neg_1"
+        title="Size -" />
+    <tab
+        activeColor="#ffffff"
+        id="@+id/font_size_increase"
+        icon="@drawable/ic_plus_1"
+        title="Size +" />
+    <tab
+        activeColor="#ffffff"
+        id="@+id/font_color"
+        icon="@drawable/ic_format_color_text"
+        title="Color" />
+    <tab
+        activeColor="#ffffff"
+        id="@+id/font_choice"
+        icon="@drawable/ic_font"
+        title="Font" />
+
+
+    <tab
+        activeColor="#ffffff"
+        id="@+id/flip"
+        icon="@drawable/ic_flip"
+        title="Back" />
+    <tab
+        activeColor="#ffffff"
+        id="@+id/bring_front"
+        icon="@drawable/ic_front"
+        title="Front" />
+
+    <tab
+        activeColor="#ffffff"
+        id="@+id/bring_back"
+        icon="@drawable/ic_back"
+        title="Back" />
+    <tab
+        activeColor="#ffffff"
+        id="@+id/text_delete"
+        icon="@drawable/ic_delete"
+        title="Remove" />
+
+</tabs>

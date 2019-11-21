@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab id="@+id/dummy" />
+
+
+    <tab
+        activeColor="#ffffff"
+        icon="@drawable/ic_flip"
+        id="@+id/flip"
+        title="Flip"
+
+        />
+    <tab
+        activeColor="#ffffff"
+        icon="@drawable/ic_front"
+        id="@+id/bring_front"
+        title="Front" />
+
+    <tab
+        activeColor="#ffffff"
+        icon="@drawable/ic_back"
+        id="@+id/bring_back"
+
+        title="Back" />
+
+    <tab
+        activeColor="#ffffff"
+        icon="@drawable/ic_delete"
+        id="@+id/delete_item"
+
+        title="Remove"
+
+        />
+
+</tabs>

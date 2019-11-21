@@ -1,0 +1,40 @@
+
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="true">
+
+        <com.roughike.bottombar.BottomBar
+            android:id="@+id/topbar"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimaryDark"
+            app:bb_activeTabAlpha="1.0"
+            app:bb_inActiveTabColor="#fff"
+            app:bb_activeTabColor="@color/colorAccent"
+            app:bb_behavior="iconsOnly"
+            app:bb_showShadow="false"
+            app:bb_tabXmlResource="@xml/topbar_explore"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </com.roughike.bottombar.BottomBar>
+
+        <FrameLayout
+            android:id="@+id/childfragmentContainer"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.492" />
+
+
+    </android.support.constraint.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#efefef</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#00B0FF</color>
+    <color name="greenyGray">#3a506b</color>
+    <color name="greeny">#5bc0be</color>
+    <color name="red">#f44336</color>
+    <color name="stroke_color">#000000</color>
+    <color name="transparent">#00FFFFFF</color>
+
+</resources>

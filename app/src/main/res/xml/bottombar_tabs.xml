@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <tab id="@+id/dummy" />
+
+    <tab
+        activeColor="#212121"
+        icon="@drawable/ic_aspect_ratio"
+        id="@+id/aspect_ratio"
+        title="Ratio" />
+
+    <tab
+        activeColor="#212121"
+        icon="@drawable/ic_bg_color"
+        id="@+id/background_color"
+        title="Bg. Color" />
+    <tab
+        activeColor="#212121"
+        icon="@drawable/ic_gesture"
+        id="@+id/add_draw"
+        title="Draw" />
+
+    <tab
+        activeColor="#212121"
+        icon="@drawable/ic_text_fields"
+        id="@+id/add_text"
+        title="Text" />
+    <tab
+        activeColor="#212121"
+        icon="@drawable/ic_filter_vintage"
+        id="@+id/add_stickers"
+        title="Stickers" />
+    <tab
+        activeColor="#212121"
+        icon="@drawable/ic_image"
+        id="@+id/add_image"
+        title="Image" />
+    <tab
+        activeColor="#212121"
+        icon="@drawable/ic_next"
+        id="@+id/finish"
+        title="Next" />
+
+
+</tabs>
